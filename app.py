@@ -16,6 +16,10 @@ gender = st.sidebar.multiselect("Gender", options=df['Gender'].unique(), default
 # Filter data
 filtered_df = df[df['Department'].isin(department) & df['Gender'].isin(gender)]
 
+option = st.selectbox("Choose a category", df["Category"].unique())
+filtered_df = df[df["Category"] == option]
+st.dataframe(filtered_df)
+
 # Key Metrics
 total_employees = len(filtered_df)
 attrition_count = filtered_df[filtered_df['Attrition'] == 'Yes'].shape[0]
