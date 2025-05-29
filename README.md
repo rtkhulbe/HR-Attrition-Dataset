@@ -1,7 +1,7 @@
 
 # HR Attrition Analysis Dashboard
 
-This project provides an interactive dashboard for analyzing employee attrition using the IBM HR Analytics Employee Attrition & Performance dataset. Built with Streamlit, it enables HR professionals and data enthusiasts to explore key factors affecting employee turnover, visualize trends, and gain actionable insights for retention strategies.
+This project provides an interactive dashboard for analyzing employee attrition using the HR Analytics Employee Attrition & Performance dataset. Built with Streamlit and python, it enables HR professionals and data enthusiasts to explore key factors affecting employee turnover, visualize trends, and gain actionable insights for retention strategies.
 
 # 📊 Features
 
