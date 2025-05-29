@@ -20,15 +20,6 @@ Rows & Columns: 1,470 rows × 35 columns
 
 Features Include: Age, Attrition, Department, DistanceFromHome, Education, JobRole, MonthlyIncome, YearsAtCompany, PerformanceRating, and more.
 
-🚀 Getting Started
-1. Clone the repository
-bash
-git clone https://github.com/rtkhulbe/HR-Attrition-Dataset.git
-cd HR-Attrition-Dataset
-2. Install dependencies
-Make sure you have Python 3.8+ installed. Install required packages:
-
-
 # 💡 Project Objectives
 Identify which employees are most at risk of leaving
 
