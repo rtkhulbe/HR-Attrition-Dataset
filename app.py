@@ -8,6 +8,11 @@ from streamlit_card import card
 # Load data
 df = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
+
+st.sidebar.info("Use the filters above to explore employee attrition patterns by department, role, and more.")
+st.markdown("**Tip:** Hover over charts for more details.")
+
+
 # Sidebar filters
 st.sidebar.header("Filters")
 department = st.sidebar.multiselect("Department", options=df['Department'].unique(), default=df['Department'].unique())
