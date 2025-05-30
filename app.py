@@ -10,7 +10,6 @@ df = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
 
 st.sidebar.info("Use the filters above to explore employee attrition patterns by department, role, and more.")
-st.markdown("**Tip:** Hover over charts for more details.")
 
 
 # Sidebar filters
@@ -91,8 +90,7 @@ st.pyplot(fig7.fig)
 fig8, ax8 = plt.subplots(figsize=(10,6))
 sns.boxplot(x='Attrition', y='DistanceFromHome', data=filtered_df, palette='viridis', ax=ax8)
 ax8.set_title('Distance from Home vs Attrition')
-hover_data=["Attrition", "DistanceFromHome"]
-st.pyplot(fig8, use_container_width=True)
+st.pyplot(fig8)
 
 # Age distribution (Seaborn/Matplotlib)
 fig9 = sns.displot(data=filtered_df, x="Age", color="Purple", height=6, aspect=1.5)
