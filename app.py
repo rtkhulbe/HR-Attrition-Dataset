@@ -33,7 +33,7 @@ col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Employees", total_employees)
 col2.metric("Attrition Count", attrition_count)
 col3.metric("Avg. Age", average_age)
-col4.metric("Avg. Salary", f"${average_salary:,.2f}"))
+col4.metric("Avg. Salary", f"${average_salary:,.2f}")
 
 # Department-wise attrition (Seaborn/Matplotlib)
 fig1, ax1 = plt.subplots(figsize=(10,6))
