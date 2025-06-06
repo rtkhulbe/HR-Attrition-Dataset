@@ -42,7 +42,7 @@ st.pyplot(fig1)
 
 # Attrition based on gender (Seaborn/Matplotlib)
 fig2, ax2 = plt.subplots(figsize=(10,6))
-sns.countplot(data=filtered_df, x="Gender", hue="Attrition", palette="Purples", ax=ax2)
+sns.countplot(data=filtered_df, x="Gender", hue="Attrition", palette="Green", ax=ax2)
 st.pyplot(fig2)
 
 # Distribution of business travel (Matplotlib Pie Chart)
